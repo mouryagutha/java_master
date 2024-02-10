@@ -6,7 +6,17 @@ public class Sum {
     {
         int ans = sum2();
         System.out.println(ans);
+
+        int ans1 = sum3(20,30);
+        System.out.println(ans1);
     }
+
+    static  int sum3(int a,int b)
+    {
+        int sum = a+b;
+        return sum;
+    }
+
 
     static int sum2()
     {
