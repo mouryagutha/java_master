@@ -14,6 +14,7 @@ public class SearchIn2Darray {
     }
     static int[] search(int[][] arr , int target)
     {
+        int max = Integer.MIN_VALUE;
         for(int row = 0; row<arr.length;row++){
             for(int col = 0 ; col<arr[row].length;col++)
             {
