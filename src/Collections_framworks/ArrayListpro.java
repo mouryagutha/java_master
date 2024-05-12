@@ -2,7 +2,7 @@ package Collections_framworks;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Collention {
+public class ArrayListpro {
     public static void main(String[] args) {
 
         ArrayList<Integer> al = new ArrayList<>();
