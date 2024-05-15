@@ -6,6 +6,14 @@ public class inheritance {
     }
 }
 
+
+class Dog extends inheritance {
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+
+
 class Main {
     public static void main(String[] args) {
         Dog myDog = new Dog();
