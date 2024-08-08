@@ -6,7 +6,6 @@ public class inheritance {
     }
 }
 
-
 class Dog extends inheritance {
     void bark() {
         System.out.println("Woof!");
