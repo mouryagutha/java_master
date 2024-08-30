@@ -6,6 +6,11 @@ public class Pattern {
         System.out.println( );
 //        pattern2(5);
         pattern3(5);
+
+        System.out.println( );
+
+        pattern4(10);
+
     }
         static void pattern1(int n )
         {
@@ -44,6 +49,24 @@ public class Pattern {
                 System.out.print("*");
 
             }
+            System.out.println( );
+        }
+    }
+
+    static void pattern4(int n)
+    {
+        for(int i=1; i<=n; i++)
+        {
+            for(int s=1; s<=n-i;s++)
+            {
+                System.out.print(" ");
+            }
+
+            for(int j=1; j<=i*2-1;j++)
+            {
+                System.out.print("*");
+            }
+
             System.out.println( );
         }
     }
