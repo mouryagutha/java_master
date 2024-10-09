@@ -16,6 +16,8 @@ class Search_method {
         int n = arr.length;
         int key = 40 ;
 
+
+
         int posistion = findelement(arr,n, key);
         if(posistion == -1)
             System.out.println("Element not found");
