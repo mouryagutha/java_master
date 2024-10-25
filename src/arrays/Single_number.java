@@ -3,7 +3,7 @@ package arrays;
 public class Single_number {
     public static void main(String[] args) {
 
-        int[] nums= {2,2,1};
+        int[] nums= {2,2,1,1,3};
         System.out.println(Single_no(nums));
     }
 
