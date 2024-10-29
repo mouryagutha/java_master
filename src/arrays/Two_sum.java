@@ -8,6 +8,7 @@ public class Two_sum {
 
         int[] nums = {2, 7, 13, 11};
         System.out.println(Arrays.toString(twoSum(nums,9)));
+        sample();
     }
 
     public static int[] twoSum(int[] nums, int target) {
@@ -20,6 +21,12 @@ public class Two_sum {
         }
 
         throw new IllegalArgumentException();
+
+
+    }
+    public static int  sample()
+    {
+
     }
 }
 
