@@ -8,6 +8,13 @@ public class Single_linkedList {
        list.insertFirst(3);
        list.insertFirst(3);
        list.insertFirst(17);
+       list.insertLast(33);
+       list.insert(100,3);
+
        list.display();
+       System.out.println(list.deleteFirst());
+        list.display();
+        System.out.println(list.deleteLast());
+        list.display();
     }
 }
