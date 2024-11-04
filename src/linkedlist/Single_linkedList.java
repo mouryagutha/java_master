@@ -16,5 +16,17 @@ public class Single_linkedList {
         list.display();
         System.out.println(list.deleteLast());
         list.display();
+
+        System.out.println(list.delete(2));
+        list.display();
+
+        list.insertFirst(23);
+        list.insertFirst(34);
+        list.insertFirst(17);
+        list.insertLast(33);
+        list.display();
+
+        System.out.println(list.find(3));
+
     }
 }
