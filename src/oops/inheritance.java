@@ -1,24 +1,25 @@
 package oops;
+class Vechicle{
+    String type;
 
-public class inheritance {
-    void eat() {
-        System.out.println("This animal eats food.");
+    void showtype(){
+        System.out.println("vehicle type:" + type);
     }
 }
 
-class Dog extends inheritance {
-    void bark() {
-        System.out.println("Woof!");
+class Bike extends Vechicle{
+    int maxspeed;
+    void showdetails(){
+        System.out.println("Max speed:" + maxspeed + "km/h");
     }
 }
 
-
-class Main {
+class Inheritance {
     public static void main(String[] args) {
-        Dog myDog = new Dog();
-        myDog.eat();  // Inherited method
-        myDog.bark(); // Dog's own method
+        Bike bike = new Bike();
+        bike.type = "two-Wheeler";
+        bike.maxspeed = 150;
+        bike.showtype();
+        bike.showdetails();
     }
 }
-
-

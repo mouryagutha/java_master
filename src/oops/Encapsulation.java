@@ -1,36 +1,26 @@
 package oops;
 
-class human
-{
-    private int age;
-    private String name;
+class BankAccount{
+    private  double balance;
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int a)
+    public double getBalance()
     {
-        age = a;
+        return balance;
     }
 
-    public String getName()
+    public void deposit(double amount)
     {
-        return name;
-    }
-
-    public void setName(String n) {
-        name = n;
+        if(amount > 0)
+        {
+            balance += amount;
+        }
     }
 }
 
 public class Encapsulation {
     public static void main(String[] args) {
-
-        human obj = new human();
-        obj.setAge(21);
-        obj.setName("mourya");
-
-        System.out.println(obj.getAge()+" : "+ obj.getName());
+        BankAccount account = new BankAccount();
+        account.deposit(1000);
+        System.out.println("Balance " + account.getBalance());
     }
 }
